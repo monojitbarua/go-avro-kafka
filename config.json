@@ -1,0 +1,8 @@
+{
+    "bootstrap.servers":"localhost:9092",
+    "schema.registry":"http://localhost:8081",
+    "group.id":"go-kafka-avro-consumer-client",
+    "topic.name":"EMPLOYEE_AVRO_TOPIC",
+    "avro.schema.id":"1",
+    "auto.offset.reset":"earliest"
+}
